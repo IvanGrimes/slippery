@@ -7,13 +7,14 @@
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
 ### CDN
 For using slippery with CDN you need to include CSS in your <head> tag.
+##### Instead x.x.x in slippery@x.x.x put version from the top readme.
 ``` HTML
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@1.1.2/dist/css/slippery.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/css/slippery.min.css">
 ```
 
 Also needed inclusion Javascript before closing <body> tag.
 ``` HTML
-<script src="//cdn.jsdelivr.net/npm/slippery@1.1.2/dist/js/slippery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/js/slippery.min.js"></script>
 ```
 
 ### npm
@@ -53,7 +54,7 @@ Then just include slippery.min.css inside of <head> tag.
 ### Release
 If you don't want to use CDN and you don't use npm, then you need to download latest release
 from https://github.com/IvanGrimes/slippery/releases
-After that unpack archive and move CSS/JS files from slippery-1.x.x/dist/ to where you want to.
+After that unpack archive and move CSS/JS files from slippery-x.x.x/dist/ to where you want to.
 Finally include slippery.min.css inside <head> tag.
 ``` HTML
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
