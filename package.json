@@ -4,6 +4,7 @@
   "description": "Pure Javascript (ES6) and BEM friendly slider",
   "author": "Ivan Grimes",
   "license": "MIT",
+  "homepage": "https://github.com/IvanGrimes/slippery",
   "main": "dist/js/slippery.min.js",
   "jsnext:main": "dist/js/slippery.esm.bundle.js",
   "repository": {
@@ -65,6 +66,7 @@
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cleancss": "^0.2.2",
     "gulp-eslint": "^5.0.0",
+    "gulp-header": "^2.0.5",
     "gulp-notify": "^3.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.1.0",

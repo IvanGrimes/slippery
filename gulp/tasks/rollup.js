@@ -5,7 +5,9 @@ const gulp   = require('gulp'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     sourcemaps = require('gulp-sourcemaps'),
-    config = require('../config');
+    header = require('gulp-header'),
+    config = require('../config'),
+    copyrights = require('./copyrights');
 
 function es() {
     const env = process.env.NODE_ENV || 'development';
@@ -22,6 +24,7 @@ function es() {
         format: 'es',
         name: 'Slippery',
         strict: true,
+        copyrights,
         sourcemap: env === 'development',
         sourcemapFile: `./${env === 'development' ? 'build' : 'dist'}/js/slippery.esm.bundle.js.map`,
         file: `./${env === 'development' ? 'build' : 'dist'}/js/slippery.esm.bundle.js`,
@@ -48,6 +51,7 @@ function umd() {
             file: `./${env === 'development' ? 'build' : 'dist'}/js/slippery.js`,
             format: 'umd',
             strict: true,
+
             sourcemap: env === 'development',
             sourcemapFile: `./${env === 'development' ? 'build' : 'dist'}/js/slippery.js.map`,
         });
@@ -58,6 +62,7 @@ function umd() {
         gulp.src('./dist/js/slippery.js')
             .pipe(sourcemaps.init())
             .pipe(uglify())
+            .pipe(header(copyrights))
             .pipe(rename((filePath) => {
                 filePath.basename += '.min';
             }))

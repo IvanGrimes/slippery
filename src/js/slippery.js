@@ -63,15 +63,15 @@ export default class Slippery {
     return this.slides.length - 1;
   }
 
-  length() { // public возвращает количество сгрупированных слайдов
+  length() {
     return this.slidesLength;
   }
 
-  realLength() { // public возвращает количество элементов с классом this.opts.classNames.slider.item
+  realLength() {
     return this.slides.length - 1;
   }
 
-  elements() { // public
+  elements() {
     return {
       slides: this.slides,
       nav: this.nav,
@@ -79,11 +79,11 @@ export default class Slippery {
     };
   }
 
-  current() { // public
+  current() {
     return this.activeSlide;
   }
 
-  appendSlide(el, index = this.realLength()) { // public
+  appendSlide(el, index = this.realLength()) {
     const slide = document.createElement('div');
     slide.classList.add(this.opts.classNames.slider.item);
     slide.appendChild(el.cloneNode(true));
@@ -102,7 +102,7 @@ export default class Slippery {
     return slide;
   }
 
-  prependSlide(el, index = this.realLength()) { // public
+  prependSlide(el, index = this.realLength()) {
     const slide = document.createElement('div');
     slide.classList.add(this.opts.classNames.slider.item);
     slide.appendChild(el.cloneNode(true));
@@ -117,7 +117,7 @@ export default class Slippery {
     return slide;
   }
 
-  removeSlide(index = this.realLength()) { // public
+  removeSlide(index = this.realLength()) {
     const before = this.slidesLength;
     let slide = this.slides[index], after;
 
@@ -275,7 +275,6 @@ export default class Slippery {
       return this;
     }
     if (!this.components) {
-      console.log('reinit')
       this.init();
     }
     this.destroyModules().initModules().updateControls().set();

@@ -105,7 +105,7 @@ export default {
             this.opts.callbacks.onSwipe(this.activeSlide, this.activeSlide + 1, 'ltr', 'ieSwipe');
             this.moveTo(this.activeSlide + 1);
             this.wrapper.removeEventListener('mousemove', this.touchmoveHandler);
-            setTimeout(() => { // троттлинг
+            setTimeout(() => {
               this.wrapper.addEventListener('mousemove', this.touchmoveHandler);
             }, 700);
           }
@@ -114,7 +114,7 @@ export default {
           this.opts.callbacks.onSwipe(this.activeSlide, this.activeSlide + 1, 'ltr', 'touchSwipe');
           this.moveTo(this.activeSlide + 1);
           this.wrapper.removeEventListener('touchmove', this.touchmoveHandler);
-          setTimeout(() => { // троттлинг
+          setTimeout(() => {
             this.wrapper.addEventListener('touchmove', this.touchmoveHandler);
           }, 500);
         }
@@ -129,7 +129,7 @@ export default {
             this.opts.callbacks.onSwipe(this.activeSlide, this.activeSlide + 1, 'rtl', 'ieSwipe');
             this.moveTo(this.activeSlide - 1);
             this.wrapper.removeEventListener('mousemove', this.touchmoveHandler);
-            setTimeout(() => { // троттлинг
+            setTimeout(() => {
               this.wrapper.addEventListener('mousemove', this.touchmoveHandler);
             }, 700);
           }
@@ -138,7 +138,7 @@ export default {
           this.opts.callbacks.onSwipe(this.activeSlide, this.activeSlide - 1, 'rtl', 'touchSwipe');
           this.moveTo(this.activeSlide - 1);
           this.wrapper.removeEventListener('touchmove', this.touchmoveHandler);
-          setTimeout(() => { // троттлинг
+          setTimeout(() => {
             this.wrapper.addEventListener('touchmove', this.touchmoveHandler);
           }, 500);
         }
