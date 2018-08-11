@@ -905,7 +905,7 @@ function () {
         return this;
       }
 
-      if (!this.components) {
+      if (this.components.length === 0) {
         this.init();
       }
 
@@ -936,6 +936,7 @@ function () {
           this.setDefault().setResponsive(width).applyResponsive();
           this.opts.callbacks.onResize(width, viewport, breakpoint);
         } else {
+          this.setDefault().set().applyResponsive();
           this.opts.callbacks.onResize(width, viewport, false);
         }
       } else {

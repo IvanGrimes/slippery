@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/IvanGrimes/slippery.svg?branch=master)](https://travis-ci.org/IvanGrimes/slippery/)
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
-[![HitCount](http://hits.dwyl.io/IvanGrimes/slippery.svg)](http://hits.dwyl.io/IvanGrimes/slippery)
-# Slippery 1.1.1
+# Slippery 1.1.2
 ### Pure Javascript (ES6) and BEM friendly slider
 
 ## Getting started
@@ -9,12 +8,12 @@ Slippery has a few methods to connect to your project: CDN, npm or downloading l
 ### CDN
 For using slippery with CDN you need to include CSS in your <head> tag.
 ``` HTML
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@1.1.1/dist/css/slippery.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@1.1.2/dist/css/slippery.min.css">
 ```
 
 Also needed inclusion Javascript before closing <body> tag.
 ``` HTML
-<script src="//cdn.jsdelivr.net/npm/slippery@1.1.1/dist/js/slippery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slippery@1.1.2/dist/js/slippery.min.js"></script>
 ```
 
 ### npm

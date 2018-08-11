@@ -274,7 +274,7 @@ export default class Slippery {
       this.destroy();
       return this;
     }
-    if (!this.components) {
+    if (this.components.length === 0) {
       this.init();
     }
     this.destroyModules().initModules().updateControls().set();
@@ -297,12 +297,12 @@ export default class Slippery {
 
     this.setSlidesWidth().moveTo(this.activeSlide, false);
 
-
     if (this.opts.responsive) {
       if (width < breakpoint) {
         this.setDefault().setResponsive(width).applyResponsive();
         this.opts.callbacks.onResize(width, viewport, breakpoint);
       } else {
+        this.setDefault().set().applyResponsive();
         this.opts.callbacks.onResize(width, viewport, false);
       }
     } else {
