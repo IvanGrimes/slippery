@@ -112,11 +112,6 @@ const slippery = new Slippery('.slippery', {
 | Option | Type | Default/Arguments | Description
 |--------|------|-------------------|------------
 | selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
-| { | object |  |  
-
-| Option | Type | Default/Arguments | Description
-|--------|------|-------------------|------------
-| selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
 | { | object |  |
 | init | boolean | true | Initialization instance as soon as it created
 | destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed)
@@ -248,7 +243,7 @@ const slippery = new Slippery('.slippery', {
 
 ### Methods
 | Method | Argument | Description
-|--|--|--|  
+|--------|----------|------------
 | moveTo | index: number, transition: boolean | Goes to slide by index skipping animation if second argument is set to false
 | autoplay | delay: number in ms | Initialize autoplay with delay passed as argument
 | destroyAutoplay | none | Stop autoplay
