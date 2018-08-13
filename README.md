@@ -109,49 +109,49 @@ const slippery = new Slippery('.slippery', {
 
 ## API
 ### Settings
-| Option | Type | Default/Arguments | Description|
-|--------|------|-------------------|------------|
-| selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes|
-| { | object |  |  |
-| init | boolean | true | Initialization instance as soon as it created|
-| destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed).|
-| nav | boolean | true | Enable/disable prev/next buttons|
-| dots | boolean | true | Enable/disable dots navigation|
-| loop | boolean | true | Enable/disable infinite looping|
-| items | number | 1 | The number of items on the screen|
-| centered | boolean | false | Autoselect middle slide as active|
-| swipes | boolean | true | Enable/disable swipes on desktop and touch devices|
-| margins | number | 0 | Set margin-left of the slide to this value.|
-| activeSlide | number | 0 | Set active slide after initialize.|
-| adaptiveHeight | boolean | false | If set to 'true' then slider block will adapt to the height of slide.|
-| appendNav | node | false | If pass the node then 'nav' block will be attached to the passed element.|
-| appendDots | node | false | If pass the node then dots block will be attached to the passed element.|
-| classNames: { | object |  |  |
-| slider: { | object |  |  |
-| wrapper | string | 'slider__wrapper' | className(element) for slippery wrapper|
-| item | string | 'slider__item' | className(element) for slippery item|
-| active | string | 'slider__item--active' | className(modificator) for the active slide|
-| prev | string | 'slider__item--prev' | className(modificator) for the previous active slide|
-| }, |  |  |  |
-| nav: { | object |  |  |
-| block | string | 'slider__nav' | className(element) for nav block|
-| item | string | 'slider__nav-item' | className(element) for item of nav|
-| prev | string | 'slider__nav-item--prev' | className(modificator) for the 'prev' button of nav item|
-| next | string | 'slider__nav-item--next' | className(modificator) for the 'next' button of nav item|
-| disabled | string | 'slider__nav-item--disabled' | className(modificator) for the disabled button of nav item|
-| }, |  |  |  |
-| dots: { |  |  |  |
-| block | string | 'slider__dots' | className(element) for dots block|
-| item | string | 'slider__dots-item' | className(element) for item of dots block|
-| active | string | 'slider__dots-item--active' | className(modificator) for active item of dots item|
-| }, |  |  |  |
-| }, |  |  |  |
-| transition: { | object |  |  |
-| type | string | 'linear' | type of css transition|
-| delay | number | 0 | delay(in ms) before css transition|
-| duration | number | 300 | duration(in ms) of css transition|
-| }, |  |  |  |
-| } |  |  |  |
+| Option | Type | Default/Arguments | Description
+|--------|------|-------------------|------------
+| selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
+| { | object |  |
+| init | boolean | true | Initialization instance as soon as it created
+| destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed).
+| nav | boolean | true | Enable/disable prev/next buttons
+| dots | boolean | true | Enable/disable dots navigation
+| loop | boolean | true | Enable/disable infinite looping
+| items | number | 1 | The number of items on the screen
+| centered | boolean | false | Autoselect middle slide as active
+| swipes | boolean | true | Enable/disable swipes on desktop and touch devices
+| margins | number | 0 | Set margin-left of the slide to this value.
+| activeSlide | number | 0 | Set active slide after initialize.
+| adaptiveHeight | boolean | false | If set to 'true' then slider block will adapt to the height of slide.
+| appendNav | node | false | If pass the node then 'nav' block will be attached to the passed element.
+| appendDots | node | false | If pass the node then dots block will be attached to the passed element.
+| classNames: { | object |  |  
+| slider: { | object |  |  
+| wrapper | string | 'slider__wrapper' | className(element) for slippery wrapper
+| item | string | 'slider__item' | className(element) for slippery item
+| active | string | 'slider__item--active' | className(modificator) for the active slide
+| prev | string | 'slider__item--prev' | className(modificator) for the previous active slide
+| }, |  |  |  
+| nav: { | object |  |  
+| block | string | 'slider__nav' | className(element) for nav block
+| item | string | 'slider__nav-item' | className(element) for item of nav
+| prev | string | 'slider__nav-item--prev' | className(modificator) for the 'prev' button of nav item
+| next | string | 'slider__nav-item--next' | className(modificator) for the 'next' button of nav item
+| disabled | string | 'slider__nav-item--disabled' | className(modificator) for the disabled button of nav item
+| }, |  |  |  
+| dots: { |  |  |  
+| block | string | 'slider__dots' | className(element) for dots block
+| item | string | 'slider__dots-item' | className(element) for item of dots block
+| active | string | 'slider__dots-item--active' | className(modificator) for active item of dots item
+| }, |  |  |  
+| }, |  |  |  
+| transition: { | object |  |  
+| type | string | 'linear' | type of css transition
+| delay | number | 0 | delay(in ms) before css transition
+| duration | number | 300 | duration(in ms) of css transition
+| }, |  |  |  
+| } |  |  |  
 
 ### Default object with settings
 ```javascript
