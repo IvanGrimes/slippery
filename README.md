@@ -13,7 +13,7 @@ For using slippery with CDN you need to include CSS in your <head> tag.
 ```
 
 Also needed inclusion Javascript before closing <body> tag.
-``` HTML
+```html
 <script src="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/js/slippery.min.js"></script>
 ```
 
@@ -110,9 +110,12 @@ const slippery = new Slippery('.slippery', {
 ## API
 ### Settings
 | Option | Type | Default/Arguments | Description
-|--------|------|-------------------|------------|  
+|--------|------|-------------------|------------|
+|  |  |  |  
+| Option | Type | Default/Arguments | Description
+|--------|------|-------------------|------------|
 | selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
-| { | object |  |
+| { | object |  |  
 | init | boolean | true | Initialization instance as soon as it created
 | destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed)
 | nav | boolean | true | Enable/disable prev/next buttons
@@ -243,7 +246,10 @@ const slippery = new Slippery('.slippery', {
 
 ### Methods
 | Method | Argument | Description
-|--------|----------|------------|  
+|--------|----------|------------|
+|  |  |  
+| Method | Argument | Description
+|--------|----------|------------|
 | moveTo | index: number, transition: boolean | Goes to slide by index skipping animation if second argument is set to false
 | autoplay | delay: number in ms | Initialize autoplay with delay passed as argument
 | destroyAutoplay | none | Stop autoplay
