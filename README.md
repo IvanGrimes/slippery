@@ -30,7 +30,7 @@ import Slippery from 'slippery';
 ```
 
 ##### If you're not using Javascript bundler.
-Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.<br/><br/>
+Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.   
 Include this one before closing ``<body>`` tag
 ```html
 <script src="/path/to/dir/slippery.min.js"></script>
