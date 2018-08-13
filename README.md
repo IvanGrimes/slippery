@@ -111,7 +111,8 @@ const slippery = new Slippery('.slippery', {
 ### Settings
 | Option | Type | Default/Arguments | Description
 |--------|------|-------------------|------------|
-|  |  |  |  
+| 123 | 123 | 123 | 123 |
+
 | Option | Type | Default/Arguments | Description
 |--------|------|-------------------|------------|
 | selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
@@ -247,7 +248,8 @@ const slippery = new Slippery('.slippery', {
 ### Methods
 | Method | Argument | Description
 |--------|----------|------------|
-|  |  |  
+| 123 | 123 | 123 |
+
 | Method | Argument | Description
 |--------|----------|------------|
 | moveTo | index: number, transition: boolean | Goes to slide by index skipping animation if second argument is set to false
