@@ -5,13 +5,13 @@
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
 ### CDN
-For using slippery with CDN you need to include CSS in your **<head>** tag.
+For using slippery with CDN you need to include CSS in your ``<head>`` tag.
 ##### Instead **x.x.x** in slippery@**x.x.x** put version from the top readme.
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/css/slippery.min.css">
 ```
 
-Also needed inclusion Javascript before closing **<body>** tag.
+Also needed inclusion Javascript before closing ``<body>`` tag.
 ```html
 <script src="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/js/slippery.min.js"></script>
 ```
@@ -25,36 +25,36 @@ npm i -D slippery
 #### Include Javascript
 ##### If you're using Webpack
 In your Javascript file import slippery.
-```html
+```javascript
 import Slippery from 'slippery';
 ```
 
 ##### If you're not using Javascript bundler.
 Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.
-Include this one before closing **<body>** tag
+Include this one before closing ``<body>`` tag
 ```html
 <script src="/path/to/dir/slippery.min.js"></script>
 ```
 
 #### Include CSS
 ##### If you're Sass/SCSS or another CSS preprocessor.
-Import slippery.min.css in your Sass/SCSS file using '@import'.
+Import slippery.min.css in your Sass/SCSS file using ``@import``.
 ```scss
 @import "/node_modules/slippery/dist/css/slippery.min.css"
 ```
 If you're using another preprocessor, use equivalent of it.
 
 ##### If you're not using CSS preprocessor.
-Then just include slippery.min.css inside of **<head>** tag.
+Then just include slippery.min.css inside of ``<head>`` tag.
 ```html
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
 ```
 
 ### Release
 If you don't want to use CDN and you don't use npm, then you need to download latest release
-from [Releases](https://github.com/IvanGrimes/slippery/releases)
+from [Releases](https://github.com/IvanGrimes/slippery/releases).
 After that unpack archive and move CSS/JS files from slippery-x.x.x/dist/ to where you want to.
-Finally include slippery.min.css inside **<head>** tag.
+Finally include slippery.min.css inside ``<head>`` tag.
 ```html
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
 ```
@@ -74,7 +74,7 @@ Also include slippery.min.js before closing **<body>** tag.
 
 ## Using
 After including slippery with one of methods and adding HTML markup.
-Initialize slippery instance in your Javascript file or inside <script> tag.
+Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
 
 ### Initialization
 ```javascript
