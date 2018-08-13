@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/IvanGrimes/slippery.svg?branch=master)](https://travis-ci.org/IvanGrimes/slippery/)
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
-# Slippery 1.1.2 [Read full documentation](https://ivangrimes.github.io/slippery/)
+# Slippery 1.1.2 
+### [Read full documentation](https://ivangrimes.github.io/slippery/)
 
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
