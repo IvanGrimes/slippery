@@ -1,6 +1,6 @@
 {
   "name": "slippery",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Pure Javascript (ES6) and BEM friendly slider",
   "author": "Ivan Grimes",
   "license": "MIT",
