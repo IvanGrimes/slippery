@@ -119,18 +119,18 @@ const slippery = new Slippery('.slippery', {
 | selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
 | { | object |  |
 | init | boolean | true | Initialization instance as soon as it created
-| destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed).
+| destroy | boolean | false | Destroying slippery instance (For example, you can set it in 'true' in breakpoint object and when breakpoint will be reached slider will be destroyed)
 | nav | boolean | true | Enable/disable prev/next buttons
 | dots | boolean | true | Enable/disable dots navigation
 | loop | boolean | true | Enable/disable infinite looping
 | items | number | 1 | The number of items on the screen
 | centered | boolean | false | Autoselect middle slide as active
 | swipes | boolean | true | Enable/disable swipes on desktop and touch devices
-| margins | number | 0 | Set margin-left of the slide to this value.
-| activeSlide | number | 0 | Set active slide after initialize.
-| adaptiveHeight | boolean | false | If set to 'true' then slider block will adapt to the height of slide.
-| appendNav | node | false | If pass the node then 'nav' block will be attached to the passed element.
-| appendDots | node | false | If pass the node then dots block will be attached to the passed element.
+| margins | number | 0 | Set margin-left of the slide to this value
+| activeSlide | number | 0 | Set active slide after initialize
+| adaptiveHeight | boolean | false | If set to 'true' then slider block will adapt to the height of slide
+| appendNav | node | false | If pass the node then 'nav' block will be attached to the passed element
+| appendDots | node | false | If pass the node then dots block will be attached to the passed element
 | classNames: { | object |  |  
 | slider: { | object |  |  
 | wrapper | string | 'slider__wrapper' | className(element) for slippery wrapper
@@ -236,29 +236,29 @@ const slippery = new Slippery('.slippery', {
 | Option | Type | Arguments | Description
 |--|--|--|--|
 | callbacks: { | object |  |
-| dotContent | function | el, index | Function takes two arguments: el(node of the dot) and index (index of the dot). For example, you can change rendering content of each dot.
-| navContent | function | prev, next | Function takes two arguments: prev(node of the previous button) and next(node of the next button). For example, you can change rendering content of buttons.
-| beforeMove | function | currentIndex, nextIndex | Function takes two arguments: currentIndex(index of the current slide) and nextIndex(index of the next slide). Fires before movement is finished.
-| afterMove | function | currentIndex | Function takes only one argument: currentIndex(index of the current slide, that was in beforeMove() nextIndex). Fires when the movement(NOT transition) is finished.
-| onResize | function | width, viewport, breakpoint | Function takes three arguments: width(width of the window), viewport(width of the slider), breakpoint(value of the breakpoint for which conditions works, if there's no suitable breakpoint then function returns false).
-| onSwipe | function | currentIndex, nextIndex, direction, result  | Function takes four arguments: currentIndex(index of the current slide), nextIndex(index of the next slide), direction(direction of the slide can be 'ltr' (left-to-right) if swipe was from left to right or 'rtl' (right-to-left).
-| beforeInit | function | none | Fires before initializing of the instance.
-| afterInit | function | none | Fires after initializing of the instance.
+| dotContent | function | el, index | Function takes two arguments: el(node of the dot) and index (index of the dot). For example, you can change rendering content of each dot
+| navContent | function | prev, next | Function takes two arguments: prev(node of the previous button) and next(node of the next button). For example, you can change rendering content of buttons
+| beforeMove | function | currentIndex, nextIndex | Function takes two arguments: currentIndex(index of the current slide) and nextIndex(index of the next slide). Fires before movement is finished
+| afterMove | function | currentIndex | Function takes only one argument: currentIndex(index of the current slide, that was in beforeMove() nextIndex). Fires when the movement(NOT transition) is finished
+| onResize | function | width, viewport, breakpoint | Function takes three arguments: width(width of the window), viewport(width of the slider), breakpoint(value of the breakpoint for which conditions works, if there's no suitable breakpoint then function returns false)
+| onSwipe | function | currentIndex, nextIndex, direction, result  | Function takes four arguments: currentIndex(index of the current slide), nextIndex(index of the next slide), direction(direction of the slide can be 'ltr' (left-to-right) if swipe was from left to right or 'rtl' (right-to-left)
+| beforeInit | function | none | Fires before initializing of the instance
+| afterInit | function | none | Fires after initializing of the instance
 | }, |  |  |
 
 ### Methods
 | Method | Argument | Description
-|--|--|--|
-| moveTo | index: number, transition: boolean | Goes to slide by index skipping animation if second argument is set to false.
-| autoplay | delay: number in ms | Initialize autoplay with delay passed as argument.
+|--|--|--|  
+| moveTo | index: number, transition: boolean | Goes to slide by index skipping animation if second argument is set to false
+| autoplay | delay: number in ms | Initialize autoplay with delay passed as argument
 | destroyAutoplay | none | Stop autoplay
-| length | none | Returns a number of the grouped slides (if the 'items' option is set to greater than 1).
-| realLength | none | Returns the real number of the slides (may be needed when you set items option to the value greater than 1 and want to know amount of the elements with className 'slippery__item').
-| elements | none | Returns an object with all elements associated with the instance (slides, dots, etc).
-| current | none |  Returns an index of the current active slide.
-| appendSlide | el: node, index: number* | Adds node after slide, if index doesn't passed then add node after last slide. Returns an added element.
-| prependSlide | el: node, index: number* | Adds node before slide, if index doesn't passed then add node before last slide. Returns an added element.
-| removeSlide | el: node, index: number* | Removes slide, if index doesn't passed then deletes last slide. Returns a deleted element.
+| length | none | Returns a number of the grouped slides (if the 'items' option is set to greater than 1)
+| realLength | none | Returns the real number of the slides (may be needed when you set items option to the value greater than 1 and want to know amount of the elements with className 'slippery__item')
+| elements | none | Returns an object with all elements associated with the instance (slides, dots, etc)
+| current | none |  Returns an index of the current active slide
+| appendSlide | el: node, index: number* | Adds node after slide, if index doesn't passed then add node after last slide. Returns an added element
+| prependSlide | el: node, index: number* | Adds node before slide, if index doesn't passed then add node before last slide. Returns an added element
+| removeSlide | el: node, index: number* | Removes slide, if index doesn't passed then deletes last slide. Returns a deleted element
 
 ### Browser compatibility
 Internet Explorer 11
