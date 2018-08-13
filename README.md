@@ -109,9 +109,6 @@ const slippery = new Slippery('.slippery', {
 
 ## API
 ### Settings
-| Option | Type | Default/Arguments | Description
-|--------|------|-------------------|------------|
-| 123 | 123 | 123 | 123 |
 
 | Option | Type | Default/Arguments | Description
 |--------|------|-------------------|------------|
