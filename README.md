@@ -1,18 +1,17 @@
 [![Build Status](https://travis-ci.org/IvanGrimes/slippery.svg?branch=master)](https://travis-ci.org/IvanGrimes/slippery/)
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
 # Slippery 1.1.2
-### Pure Javascript (ES6) and BEM friendly slider
 
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
 ### CDN
-For using slippery with CDN you need to include CSS in your <head> tag.
-##### Instead x.x.x in slippery@x.x.x put version from the top readme.
+For using slippery with CDN you need to include CSS in your **<head>** tag.
+##### Instead **x.x.x** in slippery@**x.x.x** put version from the top readme.
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/css/slippery.min.css">
 ```
 
-Also needed inclusion Javascript before closing <body> tag.
+Also needed inclusion Javascript before closing **<body>** tag.
 ```html
 <script src="//cdn.jsdelivr.net/npm/slippery@x.x.x/dist/js/slippery.min.js"></script>
 ```
@@ -32,7 +31,7 @@ import Slippery from 'slippery';
 
 ##### If you're not using Javascript bundler.
 Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.
-Include this one before closing <body> tag
+Include this one before closing **<body>** tag
 ```html
 <script src="/path/to/dir/slippery.min.js"></script>
 ```
@@ -46,20 +45,20 @@ Import slippery.min.css in your Sass/SCSS file using '@import'.
 If you're using another preprocessor, use equivalent of it.
 
 ##### If you're not using CSS preprocessor.
-Then just include slippery.min.css inside of <head> tag.
+Then just include slippery.min.css inside of **<head>** tag.
 ```html
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
 ```
 
 ### Release
 If you don't want to use CDN and you don't use npm, then you need to download latest release
-from https://github.com/IvanGrimes/slippery/releases
+from [Releases](https://github.com/IvanGrimes/slippery/releases)
 After that unpack archive and move CSS/JS files from slippery-x.x.x/dist/ to where you want to.
-Finally include slippery.min.css inside <head> tag.
+Finally include slippery.min.css inside **<head>** tag.
 ```html
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
 ```
-Also include slippery.min.js before closing <body> tag.
+Also include slippery.min.js before closing **<body>** tag.
 ```html
 <script src="/path/to/dir/slippery.min.js"></script>
 ```
@@ -152,6 +151,11 @@ const slippery = new Slippery('.slippery', {
 | delay | number | 0 | delay(in ms) before css transition
 | duration | number | 300 | duration(in ms) of css transition
 | }, |  |  |  
+| breakpoint: { | object | none |
+| 1200: { | object | none | Breakpoint in px, when browser's window will be smaller than it value settings will applied.
+| nav | boolean | none | Here you can change settings that will applied while the condition works.
+| }, |  |  |
+| }, |  |  |
 | } |  |  |  
 
 ### Default object with settings
@@ -213,7 +217,8 @@ const config = {
 
 ### Callbacks
 Just pass the callbacks object with necessary functions inside into the configuration object of slippery.
-Example:
+
+##### Example:
 ```javascript
 const slippery = new Slippery('.slippery', {
   nav: true,
@@ -243,9 +248,6 @@ const slippery = new Slippery('.slippery', {
 | }, |  |  |
 
 ### Methods
-| Method | Argument | Description
-|--------|----------|------------|
-| 123 | 123 | 123 |
 
 | Method | Argument | Description
 |--------|----------|------------|
@@ -261,8 +263,8 @@ const slippery = new Slippery('.slippery', {
 | removeSlide | el: node, index: number* | Removes slide, if index doesn't passed then deletes last slide. Returns a deleted element
 
 ### Browser compatibility
-Internet Explorer 11
-Edge
-Google Chrome (at least last 15 versions)
-Mozilla Firefox (at least last 15 versions)
-Opera (at least last 15 versions)
+* Internet Explorer 11
+* Edge
+* Google Chrome (at least last 15 versions)
+* Mozilla Firefox (at least last 15 versions)
+* Opera (at least last 15 versions)
