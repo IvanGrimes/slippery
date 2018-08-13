@@ -30,7 +30,7 @@ import Slippery from 'slippery';
 ```
 
 ##### If you're not using Javascript bundler.
-Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.
+Then move slippery.min.js from directory /node_modules/slippery/dist/js/ in your project folder.   
 Include this one before closing ``<body>`` tag
 ```html
 <script src="/path/to/dir/slippery.min.js"></script>
@@ -52,8 +52,8 @@ Then just include slippery.min.css inside of ``<head>`` tag.
 
 ### Release
 If you don't want to use CDN and you don't use npm, then you need to download latest release
-from [Releases](https://github.com/IvanGrimes/slippery/releases).
-After that unpack archive and move CSS/JS files from slippery-x.x.x/dist/ to where you want to.
+from [Releases](https://github.com/IvanGrimes/slippery/releases).   
+After that unpack archive and move CSS/JS files from slippery-x.x.x/dist/ to where you want to.   
 Finally include slippery.min.css inside ``<head>`` tag.
 ```html
 <link rel="stylesheet" href="/path/to/dir/slippery.min.css">
@@ -73,7 +73,7 @@ Also include slippery.min.js before closing **<body>** tag.
 ```
 
 ## Using
-After including slippery with one of methods and adding HTML markup.
+After including slippery with one of methods and adding HTML markup.   
 Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
 
 ### Initialization
@@ -83,8 +83,7 @@ const slippery = new Slippery('.slippery');
 After that slippery instance will be initialized with default settings.
 
 ### Initialization with custom settings
-If you want to pass your own settings into slippery,
-you also need to pass an object besides passing string with CSS selector.
+If you want to pass your own settings into slippery, you also need to pass an object besides passing string with CSS selector.
 ```javascript
 const slippery = new Slippery('.slippery', {
   nav: true,
@@ -263,8 +262,8 @@ const slippery = new Slippery('.slippery', {
 | removeSlide | el: node, index: number* | Removes slide, if index doesn't passed then deletes last slide. Returns a deleted element
 
 ### Browser compatibility
-* Internet Explorer 11
-* Edge
-* Google Chrome (at least last 15 versions)
-* Mozilla Firefox (at least last 15 versions)
-* Opera (at least last 15 versions)
+Internet Explorer 11   
+Edge   
+Google Chrome (at least last 15 versions)   
+Mozilla Firefox (at least last 15 versions)   
+Opera (at least last 15 versions)   
