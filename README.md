@@ -110,7 +110,7 @@ const slippery = new Slippery('.slippery', {
 ## API
 ### Settings
 | Option | Type | Default/Arguments | Description
-|--|--|--|--
+|--------|------|-------------------|------------
 | selector | string | none (Example: '.slider') | Selector for element (block) in which the slippery initializes
 | { | object |  |
 | init | boolean | true | Initialization instance as soon as it created
