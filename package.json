@@ -1,10 +1,10 @@
 {
   "name": "slippery",
-  "version": "1.1.4",
-  "description": "Pure Javascript (ES6) and BEM friendly slider",
+  "version": "1.1.5",
+  "description": "Pure Javascript and BEM friendly slider",
   "author": "Ivan Grimes",
   "license": "MIT",
-  "homepage": "https://github.com/IvanGrimes/slippery",
+  "homepage": "https://ivangrimes.github.io/slippery/",
   "main": "dist/js/slippery.min.js",
   "jsnext:main": "dist/js/slippery.esm.bundle.js",
   "repository": {
@@ -15,17 +15,17 @@
     "slider",
     "slide",
     "swipe",
-    "es6",
     "javascript",
-    "ecmascript",
-    "ecmascript6",
-    "bem",
     "slider",
     "touch",
     "mobile",
     "carousel",
     "gallery",
-    "plugin"
+    "plugin",
+    "es6",
+    "ecmascript6",
+    "ecmascript",
+    "bem"
   ],
   "bugs": {
     "url": "https://github.com/IvanGrimes/slippery/issues"
