@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/IvanGrimes/slippery.svg?branch=master)](https://travis-ci.org/IvanGrimes/slippery/)
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
-# Slippery 1.1.5
+# Slippery 1.1.7
 ### A Pure Javascript slider.
 ### [Read full documentation](https://ivangrimes.github.io/slippery/)
 
