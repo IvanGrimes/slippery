@@ -2,8 +2,9 @@
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
 [![npm](https://img.shields.io/npm/dw/slippery.svg)](https://www.npmjs.com/package/slippery)
 [![npm](https://img.shields.io/npm/dt/slippery.svg)](https://www.npmjs.com/package/slippery)
+[![GitHub](https://img.shields.io/github/license/IvanGrimes/slippery.svg)](https://github.com/IvanGrimes/slippery)
 
-# Slippery 1.1.9
+# Slippery 1.2.0
 ### A Pure Javascript slider.
 ### [Read full documentation](https://ivangrimes.github.io/slippery/)
 
