@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/dw/slippery.svg)](https://www.npmjs.com/package/slippery)
 [![npm](https://img.shields.io/npm/dt/slippery.svg)](https://www.npmjs.com/package/slippery)
 
-# Slippery 1.1.8
+# Slippery 1.1.9
 
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
