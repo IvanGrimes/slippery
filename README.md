@@ -4,8 +4,9 @@
 [![npm](https://img.shields.io/npm/dt/slippery.svg)](https://www.npmjs.com/package/slippery)
 [![GitHub](https://img.shields.io/github/license/IvanGrimes/slippery.svg)](https://github.com/IvanGrimes/slippery)
 
-# Slippery 1.2.0
+# Slippery 1.2.1
 ### A Pure Javascript slider.
+### [Demo](https://codepen.io/IvanGrimes/pen/XPrWMJ)
 ### [Read full documentation](https://ivangrimes.github.io/slippery/)
 
 ## Getting started
