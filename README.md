@@ -5,7 +5,8 @@
 [![GitHub](https://img.shields.io/github/license/IvanGrimes/slippery.svg)](https://github.com/IvanGrimes/slippery)
 [![GitHub stars](https://img.shields.io/github/stars/IvanGrimes/slippery.svg?style=social&label=Stars)](https://github.com/IvanGrimes/slippery)
 
-# Slippery 1.2.0
+# Slippery 1.2.1
+[Demo](https://codepen.io/IvanGrimes/pen/XPrWMJ)
 
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
