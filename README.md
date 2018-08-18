@@ -1,6 +1,9 @@
 [![Build Status](https://travis-ci.org/IvanGrimes/slippery.svg?branch=master)](https://travis-ci.org/IvanGrimes/slippery/)
 [![Dependencies](https://david-dm.org/IvanGrimes/slippery.svg)](https://david-dm.org/IvanGrimes/slippery)
-# Slippery 1.1.7
+[![npm](https://img.shields.io/npm/dw/slippery.svg)](https://www.npmjs.com/package/slippery)
+[![npm](https://img.shields.io/npm/dt/slippery.svg)](https://www.npmjs.com/package/slippery)
+
+# Slippery 1.1.8
 
 ## Getting started
 Slippery has a few methods to connect to your project: CDN, npm or downloading latest release.
