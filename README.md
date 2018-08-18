@@ -66,6 +66,7 @@ Also include slippery.min.js before closing **<body>** tag.
 <script src="/path/to/dir/slippery.min.js"></script>
 ```
 
+## Using
 ### HTML Markup
 ```html
 <div class="slippery">
@@ -75,7 +76,6 @@ Also include slippery.min.js before closing **<body>** tag.
 </div>
 ```
 
-## Using
 After including slippery with one of methods and adding HTML markup.   
 Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
 
