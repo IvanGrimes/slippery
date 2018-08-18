@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/dw/slippery.svg)](https://www.npmjs.com/package/slippery)
 [![npm](https://img.shields.io/npm/dt/slippery.svg)](https://www.npmjs.com/package/slippery)
 
-# Slippery 1.1.8
+# Slippery 1.1.9
 ### A Pure Javascript slider.
 ### [Read full documentation](https://ivangrimes.github.io/slippery/)
 
@@ -69,9 +69,6 @@ Also include slippery.min.js before closing **<body>** tag.
 ```
 
 ## Using
-After including slippery with one of methods and adding HTML markup.   
-Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
-
 ### HTML Markup
 ```html
 <div class="slippery">
@@ -80,6 +77,9 @@ Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
   <div class="slippery__item">Slide 3</div>
 </div>
 ```
+
+After including slippery with one of methods and adding HTML markup.   
+Initialize slippery instance in your Javascript file or inside ``<script>`` tag.
 
 ### Initialization
 ```javascript
